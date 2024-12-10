@@ -31,6 +31,18 @@ ul {
 a {
      text-decoration: none;
 }
+/* Scroll up  */
+.scroll-up {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     font-size: 18px;
+     color: #fff;
+     background-color: var(--secondary-color);
+     padding: 5px 15px;
+     border-radius: 5[x];
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
 /* Utility Classes */
 .text-primary {
      color: var(--secondary-color);
